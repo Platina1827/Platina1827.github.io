@@ -1,0 +1,59 @@
+/*CSS DOCUMENT*/
+
+html {
+    background: #FFEABE;
+}
+
+img {
+    width: 75%;
+    margin-left: 1em;
+}
+
+
+h1 {
+    color: firebrick;
+    font-family: fantasy;
+    margin-left: 0.5em;
+}
+
+h2 {
+    color: #78290A;
+    font-weight: normal;
+    font-family: serif;
+    margin-top: -1em;
+    margin-left: 1em;
+}
+h3 {
+    color: firebrick;
+    font-family: fantasy;
+    font-size: 1.4em;
+    margin-bottom: -0.5em;
+    margin-left: 1em;
+}
+
+h6 {
+    color: #5C565A;
+    margin-bottom: -2em;
+}
+
+p {
+    color: #423938;
+    font-size: 1.1em;
+    font-family: serif;
+    margin-left: 1em;
+}
+
+li {
+    color: #423938;
+    font-size: 1.1em;
+}
+
+.ingredients li{
+    margin-bottom: 0.1em;
+    margin-left: 3em;
+}
+
+.directions li {
+    margin-bottom: 0.2em;
+    margin-left: 3em;
+}
