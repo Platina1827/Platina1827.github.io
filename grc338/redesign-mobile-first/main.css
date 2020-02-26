@@ -48,7 +48,7 @@ section, .order{
     padding: 0.2em;
     margin-bottom: 0.8em;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .content{
@@ -68,6 +68,7 @@ section, .order{
     width: 6em;
     text-align: center;
     font-family: sans-serif;
+    font-size: 1em;
     color: rgb(255, 255, 255);
     background-color: #EB820B;
     background-size: auto;
@@ -104,6 +105,7 @@ td{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     text-align: left;
+    font-size: 1em;
 }
 
 table, td{
