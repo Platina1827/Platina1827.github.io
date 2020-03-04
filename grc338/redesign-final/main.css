@@ -62,7 +62,7 @@ section, .order{
 
 .content, .maincontent, .top{
     clear: both;
-    max-width: 45em;
+    max-width: 55em;
     background-color: rgb(255,255,255);
 }
 
