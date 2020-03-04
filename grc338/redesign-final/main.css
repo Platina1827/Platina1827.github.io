@@ -13,10 +13,12 @@ a{
 
 h2{
     font-size: 1.5em;
+    font-family: sans-serif;
 }
 
 h3{
     font-size: 1.2em;
+    font-family: sans-serif;
 }
 
 h2, section p{
@@ -36,6 +38,17 @@ section, .order{
     margin-bottom: 1em;
 }
 
+hr {
+    clear: both;
+    border: 0;
+}
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+    background-color: rgb(255,255,255);
+}
+
 .content a, .contact{
     color: rgb(255,255,255); /*red color #FF5500*/ 
     background-color: #EB820B;
@@ -49,10 +62,11 @@ section, .order{
 .content ul{
     padding-left: 0.8em;
     list-style-type: none;
+    text-align: center;
 }
 
 .content li{
-    float: left;
+    display: inline-block;
     margin-right: 0.05em;
     padding: 0.2em;
     margin-bottom: 0.8em;
@@ -62,8 +76,6 @@ section, .order{
 
 .content, .maincontent, .top{
     clear: both;
-    max-width: 55em;
-    background-color: rgb(255,255,255);
 }
 
 .order p{
@@ -128,5 +140,23 @@ table, td{
         height: 10em;
         float: left;
         margin-right: 1em;
+    }
+    
+    .long{
+        width: 24em;
+        margin-bottom: 1em;
+        margin-right: 1.5em;
+        float: left
+    }
+    
+    .order{
+        width: 24em;
+    }
+
+}
+
+@media only screen and (min-width: 50em) {
+    section{
+        width: 29%
     }
 }
