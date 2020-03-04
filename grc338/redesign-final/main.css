@@ -4,6 +4,7 @@ img{
 
 body{
     margin: 0;
+    background-color: #EB820B;
 }
 
 a{
@@ -59,12 +60,10 @@ section, .order{
     font-size: 1em;
 }
 
-.content{
-    background-color: rgb(255,255,200);
-}
-
-.content, .maincontent{
+.content, .maincontent, .top{
     clear: both;
+    max-width: 45em;
+    background-color: rgb(255,255,255);
 }
 
 .order p{
@@ -84,8 +83,9 @@ section, .order{
 }
 
 .maincontent{
-    margin-left: 1em;
-    margin-right: 1em;
+    /*margin-left: 1em;
+    margin-right: 1em; */
+    padding: 1em;
 }
 
 .catchphrase{
@@ -95,6 +95,8 @@ section, .order{
 .top{
     background-color: rgb(255,255,200);
     padding-bottom: 0.0008em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .top h3{
@@ -118,4 +120,13 @@ td{
 
 table, td{
     border-bottom: 5px solid rgb(255,255,255);
+}
+
+@media only screen and (min-width: 25em){
+    section{
+        width: 40%;
+        height: 10em;
+        float: left;
+        margin-right: 1em;
+    }
 }
